@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color:antiquewhite;
+    margin: 20px auto;
+    padding: 20px;
+    width:90vw;
+    height: 10vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.container div{
+    background-color: peru;
+    text-align: center;
+    padding:  20px ;
+    font-size: large;
+    width: calc(80%/5);
+    
+
+}
